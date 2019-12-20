@@ -1,0 +1,45 @@
+PERFORMANCE:
+
+Tests for dense:
+	test1 took 0.03875399800017476 seconds
+	test2 took 0.05692926200572401 seconds
+	test3 took 0.27466453998931684 seconds
+Tests for linear:
+	test1 took 0.03854622200015001 seconds
+	test2 took 0.07439555300516076 seconds
+	test3 took 1.203416353004286 seconds
+Tests for sparse:
+	test1 took 0.03901472399593331 seconds
+	test2 took 0.05643564701313153 seconds
+	test3 took 0.2665461410069838 seconds
+Tests for star:
+	test1 took 0.041158091014949605 seconds
+	test2 took 0.07161623999127187 seconds
+	test3 took 2.056285748985829 seconds
+
+(5/5) Program took fewer than 5 minutes to execute all tests.
+
+OUTPUT:
+
+(3/3) Correct format
+(3/3) Correct length of path
+(3/3) Correct path
+
+CODING STYLE:
+
+(4/4) Docstrings for each class and method
+(3/3) Well commented code
+(1/1) Useful names for objects, attributes and methods in camel case
+(3/3) Readability
+
+GENERAL COMMENTS:
+
+Your grade was determined by looking at the first two tests in each category.
+I ran the third test to prove whether or not your code exhibits time complexity issues.
+I encourage you to try to fix these issues on your own.
+
+Must run without errors to receive a grade.
+Must read from stdin and output to stdout.
+Must be object oriented.
+
+TOTAL: (25/25)

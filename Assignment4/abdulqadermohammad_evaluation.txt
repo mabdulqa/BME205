@@ -1,0 +1,54 @@
+PERFORMANCE:
+
+Tests for problem8.py:
+	large test set lasted 0.08421365497633815 seconds
+	medium test set lasted 0.03224756312556565 seconds
+	trivial test set lasted 0.029841171111911535 seconds
+Tests for problem9.py:
+	test2 test set lasted 0.030843803193420172 seconds
+	test1 test set lasted 0.033582166070118546 seconds
+	trivial test set lasted 0.028814713936299086 seconds
+Tests for problem10.py:
+	large test set lasted 0.09228872111998498 seconds
+	medium test set lasted 0.0358621880877763 seconds
+	trivial test set lasted 0.0307417050935328 seconds
+Tests for problem11.py:
+	test2 test set lasted 0.04077777499333024 seconds
+	test1 test set lasted 0.03505479288287461 seconds
+	trivial test set lasted 0.028733402024954557 seconds
+Tests for problem12.py:
+	medium test set lasted 0.04387456108815968 seconds
+	large test set lasted 0.04868818400427699 seconds
+	trivial test set lasted 0.028580123791471124 seconds
+Tests for problem13.py:
+	medium test set lasted 0.04360760794952512 seconds
+	large test set lasted 0.05486289598047733 seconds
+	trivial test set lasted 0.02940230001695454 seconds
+Tests for problem14.py:
+	medium test set lasted 0.030490461038425565 seconds
+	large test set lasted 0.035951799945905805 seconds
+	trivial test set lasted 0.028041738085448742 seconds
+
+(7/7) Program took fewer than 5 minutes to execute all tests.
+
+OUTPUT:
+
+(7/7) Correct formatting for each problem
+(5/7) Problem 8 output has too many entries, some with incorrect kmer size.
+			Problem 10 output is slightly incorrect
+
+
+CODING STYLE:
+
+(4/4) Docstrings for each class and method
+(2/2) Well commented code
+(1/1) Useful names for objects, attributes and methods in camel case
+(2/2) Readability
+
+GENERAL COMMENTS:
+
+Must run without errors to receive a grade.
+Must read from stdin and output to stdout.
+Must be object oriented.
+
+TOTAL: (28/30)

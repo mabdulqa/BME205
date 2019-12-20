@@ -1,0 +1,40 @@
+Run with Arthrospira-platensis-NIES-39.fna lasted 127.73208388601779 seconds
+Error: none
+Run with Ecoli-UMN026.fna lasted 100.06015345698688 seconds
+Error: none
+Run with Synechococcus7002.fna lasted 67.05683594301809 seconds
+Error: none
+Run with Zm4-genomic.fna lasted 40.56008920801105 seconds
+Error: none
+
+PERFORMANCE:
+
+(0/2) Program took longer than 5 minutes to execute all tests.
+
+OUTPUT:
+
+(0/1) Doesn't print header
+(5/5) Sorted by Z-score and alphabetically, no duplicates
+(4/4) Correct values
+
+CODING STYLE:
+
+(2/4) Class docstrings should describe the class attributes as well as function.
+(2/2) Well commented code
+(2/2) Useful names for objects, attributes and methods in camel case
+(3/3) Uses argparse or provided CommandLine class
+(2/2) Readability
+
+Must run without errors to receive a grade.
+Must read from stdin and output to stdout.
+Must be object oriented.
+
+EXTRA CREDIT:
+
+Running extra credit with Zm4-genomic.fna lasted 0.039898518996778876 seconds.
+Error: usage: missingMotif.py [options] -option1[default] <input >output
+missingMotif.py: error: unrecognized arguments: --kScoring
+
+(0/0) not implemented
+
+TOTAL: (20/25)

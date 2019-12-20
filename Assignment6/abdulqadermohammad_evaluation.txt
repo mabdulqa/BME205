@@ -1,0 +1,48 @@
+PERFORMANCE:
+
+Tests for problem16.py:
+	test2 lasted 0.028931970009580255 seconds
+	test3 lasted 0.028630534012336284 seconds
+	test1 lasted 0.027992696996079758 seconds
+	test4 lasted 0.028032566013280302 seconds
+	test5 lasted 0.028584512998349965 seconds
+Tests for problem17.py:
+	test1 lasted 0.029158769000787288 seconds
+	test2 lasted 0.028169385012006387 seconds
+	test3 lasted 0.028002639999613166 seconds
+	test4 lasted 0.027688014990417287 seconds
+	test5 lasted 0.029000562004512176 seconds
+Tests for problem18.py:
+	test2 lasted 0.061721204983768985 seconds
+	test1 lasted 0.06506838600034826 seconds
+	test3 lasted 0.06003016800968908 seconds
+	test4 lasted 0.06294581101974472 seconds
+	test5 lasted 0.06530936498893425 seconds
+Tests for problem19.py:
+	test2 lasted 0.06263259501429275 seconds
+	test1 lasted 0.04372244799742475 seconds
+	test3 lasted 0.05374626102275215 seconds
+	test4 lasted 0.06150486500700936 seconds
+	test5 lasted 0.07875765400240198 seconds
+
+(5/5) Program took fewer than 5 minutes to execute all tests.
+
+OUTPUT:
+
+(5/5) Correct formatting for each problem
+(4.5/5) Problem 18 output correct for most cases
+
+CODING STYLE:
+
+(4/4) Docstrings for each class and method
+(2/2) Well commented code
+(1/1) Useful names for objects, attributes and methods in camel case
+(3/3) Readability
+
+GENERAL COMMENTS:
+
+Must run without errors to receive a grade.
+Must read from stdin and output to stdout.
+Must be object oriented.
+
+TOTAL: (24.5/25)

@@ -1,0 +1,54 @@
+PERFORMANCE:
+
+Run with -i=100 -p=2 -k=15 < input/test1.fa lasted 2.918080818839371 seconds
+Error: none
+Run with -i=1000 -p=1 -k=8 < input/test2.fa lasted 9.042072078213096 seconds
+Error: none
+Run with -i=100 -p=1 -k=11 < input/test3.fa lasted 2.0858653099276125 seconds
+Error: none
+Run with -i=100 -p=1 -k=10 < input/test4.fa lasted 2.5374545380473137 seconds
+Error: none
+
+(2/2) Program took fewer than 5 minutes to execute all tests.
+
+OUTPUT:
+
+(0/5) Correct consensus
+(5/5) Reasonable entropy
+
+CODING STYLE:
+
+(4/4) Docstrings for classes should describe its function and its attributes
+(2/2) Well commented code
+(2/2) Useful names for objects, attributes and methods in camel case
+(3/3) Uses argparse or provided CommandLine class
+(2/2) Readability
+
+GENERAL COMMENTS:
+
+I tried not to penalize anyone for not fixing things that I commented on in
+missingMotif.py because you didn't have that feedback before this assignment was due.
+If you have any concerns, please email me.
+
+Must run without errors to receive a grade.
+Must read from stdin and output to stdout.
+Must be object oriented.
+
+EXTRA CREDIT:
+
+Extra credit run with -i=100 -p=1 -k=8 -m < input/test2.fa lasted 0.04867494013160467 seconds.
+Error: usage: randomizedMotifSearch.py [options] -option1[default] <input >output
+randomizedMotifSearch.py: error: unrecognized arguments: -m
+Extra credit run with -i=100 -p=1 -k=8 -r < input/test2.fa lasted 0.047916913870722055 seconds.
+Error: usage: randomizedMotifSearch.py [options] -option1[default] <input >output
+randomizedMotifSearch.py: error: unrecognized arguments: -r
+Extra credit run with -i=100 -p=1 -k=8 -g < input/test2.fa lasted 0.04724286822602153 seconds.
+Error: usage: randomizedMotifSearch.py [options] -option1[default] <input >output
+randomizedMotifSearch.py: error: unrecognized arguments: -g
+Extra credit run with -i=100 -p=1 -k=8 -g -m -r < input/test2.fa lasted 0.047089884988963604 seconds.
+Error: usage: randomizedMotifSearch.py [options] -option1[default] <input >output
+randomizedMotifSearch.py: error: unrecognized arguments: -g -m -r
+
+(0.5/0) implemented printing contributing motifs but doesn't rely on specifying the -m argument
+
+TOTAL: (20.5/25)
